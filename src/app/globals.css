@@ -20,7 +20,18 @@ body {
   color: black;
   background: rgb(238, 238, 238);
 }
+.hero-video {
+  background-image: url("@/../../../public/Images/heroImage.jpg"); /* Replace with the actual path to your image file */
+  background-size: cover;
+  background-position: center;
 
+  background-repeat: no-repeat;
+  width: 98vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;

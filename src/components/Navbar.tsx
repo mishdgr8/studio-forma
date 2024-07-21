@@ -108,7 +108,7 @@ const Navbar = () => {
 
         <div className="flex items-center space-x-4 text-sm">
           <motion.button
-            className="bg-gray-500 text-white px-4 py-1.5 rounded-[20px] flex items-center"
+            className="bg-gray-700 text-white px-4 py-1.5 rounded-[20px] flex items-center"
             whileTap={{ scale: 0.9 }}
           >
             Bookings
