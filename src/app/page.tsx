@@ -18,7 +18,7 @@ export default function Home() {
         <section className="hero h-auto">
           <div className="flex-col items-center justify-around">
             <div
-              className={`text-gray-700 text-9xl flex justify-center ${lato.className} mb-8`}
+              className={`text-gray-700 text-9xl flex justify-center ${lato.className} mb-[6rem] mt-[4rem]`}
             >
               STUDIO FORMA 96
             </div>
