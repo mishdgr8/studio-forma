@@ -32,6 +32,9 @@ body {
   justify-content: center;
   align-items: center;
 }
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
